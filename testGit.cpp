@@ -1,15 +1,21 @@
 #include <iostream>
 
+
 int multiply(const int& a, const inst& b){
   return a*b;
-
+}
 int add(const int& a, const int& b)
+
 {
  return a + b;
 } 
 
 int sub (const int& a, const int& b) {
         return a-b;
+}
+
+int sub (const int& a, const int& b) {
+	return a-b;
 }
 
 int main()
